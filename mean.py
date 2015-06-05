@@ -1,4 +1,5 @@
 def mean(num_list):
+    """Function that calculates a mean."""
     a = sum(num_list)/len(num_list)
     if isinstance(a,complex):
         return NotImplemented
